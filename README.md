@@ -1,11 +1,11 @@
 # SQL-Based Business Transaction & Analytics System
 
-## 📌 Project Overview
+##  Project Overview
 A MySQL-based relational database system designed to simulate real-world business transaction analytics. The project demonstrates database design, analytical SQL queries, KPI computation, and performance optimization techniques used in production environments.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - MySQL
 - SQL
 - Relational Database Design
@@ -14,7 +14,7 @@ A MySQL-based relational database system designed to simulate real-world busines
 
 ---
 
-## 🗂 Database Structure
+## Database Structure
 The system consists of the following core entities:
 
 - Customers
@@ -29,27 +29,27 @@ Designed with:
 
 ---
 
-## 📊 Key Business Analytics Implemented
+## Key Business Analytics Implemented
 
-### 🔹 Revenue Metrics
+### Revenue Metrics
 - Total Revenue Calculation
 - Monthly Revenue Trends
 - Revenue by Product Category
 - Customer Lifetime Value (CLV)
 
-### 🔹 Customer Analytics
+### Customer Analytics
 - Revenue per Customer
 - Repeat Customer Identification
 - Most Valuable Customer Analysis
 
-### 🔹 Product Analytics
+### Product Analytics
 - Top Selling Products
 - Purchase Frequency
 - Category-Level Performance
 
 ---
 
-## ⚡ Performance Optimization
+## Performance Optimization
 - Indexing on foreign keys
 - Indexing on frequently filtered columns
 - Check constraints for data validation
@@ -57,7 +57,7 @@ Designed with:
 
 ---
 
-## 📈 Production-Ready Views
+## Production-Ready Views
 - Customer Revenue Summary
 - Product Sales Summary
 - Monthly Revenue Report
@@ -65,7 +65,7 @@ Designed with:
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 - Multi-table Joins
 - Aggregations & Grouping
 - Subqueries & Derived Tables
@@ -75,4 +75,4 @@ Designed with:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
