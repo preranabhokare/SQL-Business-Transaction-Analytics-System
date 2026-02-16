@@ -1,44 +1,78 @@
 # SQL-Based Business Transaction & Analytics System
 
-## Project Overview
-This project demonstrates the design and implementation of a relational database using MySQL to store and analyze business transaction data. The system focuses on extracting meaningful business insights from transactional data using SQL queries.
+## 📌 Project Overview
+A MySQL-based relational database system designed to simulate real-world business transaction analytics. The project demonstrates database design, analytical SQL queries, KPI computation, and performance optimization techniques used in production environments.
 
-## Technologies Used
+---
+
+## 🛠 Tech Stack
 - MySQL
 - SQL
+- Relational Database Design
+- Indexing & Query Optimization
+- Business Intelligence Queries
 
-## Database Design
-The database consists of four main tables:
+---
+
+## 🗂 Database Structure
+The system consists of the following core entities:
+
 - Customers
 - Products
 - Orders
-- Order_Details
+- Order Items
 
-These tables are connected using primary and foreign key relationships to ensure data integrity.
+Designed with:
+- Primary & Foreign Keys
+- Data Integrity Constraints
+- Indexing for Performance Optimization
 
-## Key Features
-- Normalized relational database design
-- Complex SQL queries using joins, subqueries, and aggregations
-- SQL views for reporting and analysis
-- Indexing and constraints for performance and data integrity
-- Business analytics including revenue trends and customer behavior
+---
 
-## Sample Analytical Queries
-- Total revenue generated
-- Revenue by customer
-- Monthly sales trends
-- Top customers by spending
-- Product performance analysis
+## 📊 Key Business Analytics Implemented
 
-## How to Run
-1. Create the database using `schema/create_tables.sql`
-2. Insert sample data using `data/insert_sample_data.sql`
-3. Run analytical queries from the `queries` folder
-4. Explore views and optimization scripts
+### 🔹 Revenue Metrics
+- Total Revenue Calculation
+- Monthly Revenue Trends
+- Revenue by Product Category
+- Customer Lifetime Value (CLV)
 
-## Learning Outcomes
-- Relational database design
-- SQL analytics and reporting
-- Query optimization techniques
-- Translating raw data into business insights
+### 🔹 Customer Analytics
+- Revenue per Customer
+- Repeat Customer Identification
+- Most Valuable Customer Analysis
 
+### 🔹 Product Analytics
+- Top Selling Products
+- Purchase Frequency
+- Category-Level Performance
+
+---
+
+## ⚡ Performance Optimization
+- Indexing on foreign keys
+- Indexing on frequently filtered columns
+- Check constraints for data validation
+- Optimized join-based analytical queries
+
+---
+
+## 📈 Production-Ready Views
+- Customer Revenue Summary
+- Product Sales Summary
+- Monthly Revenue Report
+- Order Summary Dashboard
+
+---
+
+## 🧠 Key Concepts Demonstrated
+- Multi-table Joins
+- Aggregations & Grouping
+- Subqueries & Derived Tables
+- HAVING Clause
+- View Abstraction
+- Database Optimization Techniques
+
+---
+
+## 📂 Project Structure
