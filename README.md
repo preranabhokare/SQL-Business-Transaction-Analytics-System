@@ -73,6 +73,4 @@ Designed with:
 - View Abstraction
 - Database Optimization Techniques
 
----
 
-## Project Structure
